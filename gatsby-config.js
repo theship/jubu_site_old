@@ -3,9 +3,9 @@ module.exports = {
     title: `JuLee Burdekin`,
     author: {
       name: `JuLee Burdekin`,
-      summary: `is crafting online & tangible products for a better future.`,
+      summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `JuLee Burdekin's personal website`,
+    description: `Personal website of JuLee Burdekin`,
     siteUrl: `https://www.juleeburdekin.com/`,
     social: {
       linkedin: `jburdekin`,
@@ -13,9 +13,9 @@ module.exports = {
       instagram: `pequodcapt`,
       twitter: `pequodcapt`,
       stackoverflow: `theship`,
+      devpost: `theship`,
       github: `theship`,
       codepen: `theship`,
-      devpost: `theship`
     },
   },
   plugins: [

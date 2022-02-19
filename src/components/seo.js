@@ -189,7 +189,6 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `devpost:description`,
           content: metaDescription,
         },
-
       ].concat(meta)}
     />
   )

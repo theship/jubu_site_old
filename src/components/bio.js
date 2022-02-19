@@ -19,7 +19,14 @@ const Bio = () => {
             summary
           }
           social {
+            linkedin
+            medium
+            instagram
             twitter
+            stackoverflow
+            github
+            codepen
+            devpost
           }
         }
       }
