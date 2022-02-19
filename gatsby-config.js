@@ -1,14 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `JuLee Burdekin`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `JuLee Burdekin`,
+      summary: `is crafting online & tangible products for a better future.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `JuLee Burdekin's personal website`,
+    siteUrl: `https://www.juleeburdekin.com/`,
     social: {
-      twitter: `kylemathews`,
+      linkedin: `jburdekin`,
+      medium: `pequodcapt`,
+      instagram: `pequodcapt`,
+      twitter: `pequodcapt`,
+      stackoverflow: `theship`,
+      github: `theship`,
+      codepen: `theship`,
+      devpost: `theship`
     },
   },
   plugins: [

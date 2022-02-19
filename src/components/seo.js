@@ -19,7 +19,14 @@ const Seo = ({ description, lang, meta, title }) => {
             title
             description
             social {
-              twitter
+              linkedin,
+              medium,
+              instagram,
+              twitter,
+              stackoverflow,
+              github,
+              codepen,
+              devpost
             }
           }
         }
@@ -55,6 +62,54 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          name: `linkedin:card`,
+          content: `summary`,
+        },
+        {
+          name: `linkedin:creator`,
+          content: site.siteMetadata?.social?.linkedin || ``,
+        },
+        {
+          name: `linkedin:title`,
+          content: title,
+        },
+        {
+          name: `linkedin:description`,
+          content: metaDescription,
+        },
+        {
+          name: `medium:card`,
+          content: `summary`,
+        },
+        {
+          name: `medium:creator`,
+          content: site.siteMetadata?.social?.medium || ``,
+        },
+        {
+          name: `medium:title`,
+          content: title,
+        },
+        {
+          name: `medium:description`,
+          content: metaDescription,
+        },
+        {
+          name: `instagram:card`,
+          content: `summary`,
+        },
+        {
+          name: `instagram:creator`,
+          content: site.siteMetadata?.social?.instagram || ``,
+        },
+        {
+          name: `instagram:title`,
+          content: title,
+        },
+        {
+          name: `instagram:description`,
+          content: metaDescription,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -70,6 +125,71 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `stackoverflow:card`,
+          content: `summary`,
+        },
+        {
+          name: `stackoverflow:creator`,
+          content: site.siteMetadata?.social?.stackoverflow || ``,
+        },
+        {
+          name: `stackoverflow:title`,
+          content: title,
+        },
+        {
+          name: `stackoverflow:description`,
+          content: metaDescription,
+        },
+        {
+          name: `github:card`,
+          content: `summary`,
+        },
+        {
+          name: `github:creator`,
+          content: site.siteMetadata?.social?.github || ``,
+        },
+        {
+          name: `github:title`,
+          content: title,
+        },
+        {
+          name: `github:description`,
+          content: metaDescription,
+        },
+        {
+          name: `codepen:card`,
+          content: `summary`,
+        },
+        {
+          name: `codepen:creator`,
+          content: site.siteMetadata?.social?.codepen || ``,
+        },
+        {
+          name: `codepen:title`,
+          content: title,
+        },
+        {
+          name: `codepen:description`,
+          content: metaDescription,
+        },
+        {
+          name: `devpost:card`,
+          content: `summary`,
+        },
+        {
+          name: `devpost:creator`,
+          content: site.siteMetadata?.social?.devpost || ``,
+        },
+        {
+          name: `devpost:title`,
+          content: title,
+        },
+        {
+          name: `devpost:description`,
+          content: metaDescription,
+        },
+
       ].concat(meta)}
     />
   )
