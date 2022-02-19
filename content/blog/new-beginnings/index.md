@@ -1,7 +1,7 @@
 ---
-title: New Beginnings
+title: New beginnings
 date: "2022-02-19T14:24:32.169Z"
-description: Moving--just my site
+description: Moving--just my site.
 ---
 
 A couple of years ago, I pushed a public site up using a beautiful Shopify template. Hundreds of dollars later, I'm back to something much more simple--and cheaper: [github.io pages](https://github.com/topics/personal-website). The [Gatsby Starter Blog template](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog) is a good place to start, with support for some of the tools I like to play around with.
