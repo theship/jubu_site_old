@@ -321,9 +321,9 @@ a:focus {
 }
 
 .socialIcon {
-  width: 2em;
-  height: 2em;
-  padding: 2em;
+    border-style: none;
+    margin: 0.5em;
+    width: 2em;
 }
 
 /* Media queries */

@@ -8,14 +8,23 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import Linkedin from "../images/social/Linkedin.svg";
-import Codepen from "../images/social/codepen.svg";
-import Devpost from "../images/social/devpost.svg";
-import Githubactions from "../images/social/Githubactions.svg";
-import Instagram from "../images/social/instagram.svg";
-import Medium from "../images/social/medium.svg";
-import Stackoverflow from "../images/social/stackoverflow.svg";
-import Twitter from "../images/social/twitter.svg";
+/* import { ReactComponent as Linkedin } from "../images/social/Linkedin.svg";
+import { ReactComponent as Codepen } from "../images/social/codepen.svg";
+import { ReactComponent as Devpost } from "../images/social/devpost.svg";
+import { ReactComponent as Githubactions } from "../images/social/Githubactions.svg";
+import { ReactComponent as Instagram } from "../images/social/instagram.svg";
+import { ReactComponent as Medium } from "../images/social/medium.svg";
+import { ReactComponent as Stackoverflow } from "../images/social/stackoverflow.svg";
+import { ReactComponent as Twitter } from "../images/social/twitter.svg"; */
+import linkedin from "../images/social/linkedin.svg";
+import codepen from "../images/social/codepen.svg";
+import devpost from "../images/social/devpost.svg";
+import githubactions from "../images/social/githubactions.svg";
+import instagram from "../images/social/instagram.svg";
+import medium from "../images/social/medium.svg";
+import stackoverflow from "../images/social/stackoverflow.svg";
+import twitter from "../images/social/twitter.svg";
+
 
 
 const Bio = () => {
@@ -85,43 +94,35 @@ const Bio = () => {
             <a href={`https://linkedin.com/${social?.linkedin || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for linkedin"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Linkedin}/></a>
-            <a href={`https://${social?.medium}.medium.com/`} target='blank'><img
+                                                                                        src={linkedin}/></a>
+            <a href={`https://${social?.medium}.medium.com/` || ``} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for medium"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Medium}/></a>
+                                                                                        src={medium}/></a>
             <a href={`https://instagram.com/${social?.instagram || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for instagram"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Instagram}/></a>
+                                                                                        src={instagram}/></a>
             <a href={`https://twitter.com/${social?.twitter || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for twitter"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Twitter}/></a>
+                                                                                        src={twitter}/></a>
             <a href={`https://stackoverflow.com/${social?.stackoverflow || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for stackoverflow"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Stackoverflow}/></a>
+                                                                                        src={stackoverflow}/></a>
             <a href={`https://github.com/${social?.github || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for github"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Githubactions}/></a>
+                                                                                        src={githubactions}/></a>
             <a href={`https://codepen.com/${social?.codepen || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for codepen"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Codepen}/></a>
+                                                                                        src={codepen}/></a>
             <a href={`https://devpost.com/${social?.devpost || ``}`} target='blank'><img
                                                                                         className="socialIcon"
                                                                                         alt="social icon for devpost"
-                                                                                        formats={["auto", "svg"]}
-                                                                                        src={Devpost}/></a>
+                                                                                        src={devpost}/></a>
           </div>
         </div>
       </div>  

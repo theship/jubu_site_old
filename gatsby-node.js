@@ -1,6 +1,11 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+/*  const {
+  onCreateWebpackConfig,
+} = require('./src/lib/gatsby/onCreateWebpackConfig');
 
+exports.onCreateWebpackConfig = onCreateWebpackConfig;
+ */
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 

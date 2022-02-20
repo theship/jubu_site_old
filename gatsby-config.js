@@ -19,15 +19,18 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-image`,
-    {
+    /* {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: `/src/images/svg/` 
+          include: `/src/images/svg/`
+          // include: `/svg/`
+          // /\.inline\.svg$/
+          // include: /\.svg$/
         }
       }
-    },
+    }, */
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
