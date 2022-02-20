@@ -320,6 +320,12 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.socialIcon {
+  width: 2em;
+  height: 2em;
+  padding: 2em;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
@@ -332,3 +338,4 @@ a:focus {
     list-style-position: inside;
   }
 }
+

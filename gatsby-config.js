@@ -8,11 +8,11 @@ module.exports = {
     description: `Personal website of JuLee Burdekin`,
     siteUrl: `https://www.juleeburdekin.com/`,
     social: {
-      linkedin: `jburdekin`,
+      linkedin: `in/jburdekin`,
       medium: `pequodcapt`,
       instagram: `pequodcapt`,
       twitter: `pequodcapt`,
-      stackoverflow: `theship`,
+      stackoverflow: `users/4233413/theship`,
       devpost: `theship`,
       github: `theship`,
       codepen: `theship`,
@@ -20,6 +20,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: `/src/images/svg/` 
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
