@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/my-second-post/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"JuLee Burdekin"}},"markdownRemark":{"id":"a906c66a-3257-5d87-a66a-dfac0de23a81","excerpt":"I was planning on adding social icons to the site, because that’s where folks are expressing themselves these days, anyway. But my bro’s coming over to play…","html":"<p>I was planning on adding social icons to the site, because that’s where folks are expressing themselves these days, anyway. But my bro’s coming over to play pinochle.</p>\n<p>See you there.</p>","frontmatter":{"title":"Socializing","date":"February 19, 2022","description":"Setting up social icons."}},"previous":{"fields":{"slug":"/new-beginnings/"},"frontmatter":{"title":"New beginnings"}},"next":{"fields":{"slug":"/20220222/"},"frontmatter":{"title":"Social SVG"}}},"pageContext":{"id":"a906c66a-3257-5d87-a66a-dfac0de23a81","previousPostId":"b34e2732-3d38-5a06-b5f7-2529eff549f1","nextPostId":"926cfaa5-35a2-568e-b176-7b99eaf2727d"}},
+    "staticQueryHashes": ["1619358289","3879185650"]}

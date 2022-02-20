@@ -56,7 +56,8 @@ typings/
 
 # gatsby files
 .cache/
-public
+# uploading public to see if it'll work in github pages.
+# public
 
 # Mac files
 .DS_Store
