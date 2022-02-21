@@ -68,7 +68,7 @@ const Bio = () => {
           className="bio-avatar"
           layout="fixed"
           formats={["auto", "webp", "avif"]}
-          src="../images/profile-pic_julee_burdekin.jpg"
+          src="../images/profile-pic_julee_burdekin.png"
           width={50}
           height={50}
           quality={95}

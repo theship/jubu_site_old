@@ -35,4 +35,4 @@ Oh, and Gatsby `Link`, as well. Even though the docs said don't use it for exter
 
 But the images still didn't display. I had set a height and width early on, so I thought I was covered by silly CSS transpiling issues. But nope. Turned out all I had to do is drop _either_ the height or the width (something about ratios?), and the icons displayed perfectly.
 
-Next up? custom URLs for github.io pages.
+Next up? Loading this site into Namecheap shared hosting.

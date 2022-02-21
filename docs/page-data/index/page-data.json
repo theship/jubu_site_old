@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"JuLee Burdekin"}},"allMarkdownRemark":{"nodes":[{"excerpt":"Pinochle last night, 3-hand cut-throat: my bro own three out of four games. Back at the ol’ Gatsby React Webpack easy-peasy starter blog. I…","fields":{"slug":"/20220222/"},"frontmatter":{"date":"February 20, 2022","title":"Social SVG","description":"Styling up social icons."}},{"excerpt":"I was planning on adding social icons to the site, because that’s where folks are expressing themselves these days, anyway. But my bro’s…","fields":{"slug":"/my-second-post/"},"frontmatter":{"date":"February 19, 2022","title":"Socializing","description":"Setting up social icons."}},{"excerpt":"A couple of years ago, I pushed a public site up using a beautiful Shopify template. Hundreds of dollars later, I’m back to something much…","fields":{"slug":"/new-beginnings/"},"frontmatter":{"date":"February 19, 2022","title":"New beginnings","description":"Moving--just my site."}}]}},"pageContext":{}},
-    "staticQueryHashes": ["1619358289","3879185650"]}
